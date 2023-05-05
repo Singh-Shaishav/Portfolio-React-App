@@ -10,11 +10,12 @@ export default function Resume() {
         <h1>Shaishav Singh</h1>
         <p>To secure a challenging role as a software engineer that allows me to leverage my technical skills and experience to deliver measurable results and contribute to the growth of the organization.</p>
         <hr className='hrline'></hr>
-        <a href='tel: "+917088587207"'><i className="fa fa-phone">      7088587207</i></a>
-        < a href='https://wa.me/+917088587207' target="_blank" rel="noreferrer"><i className="fa fa-whatsapp">      +91-7088587207</i></a>
+        <a href='tel: "+917088587207"'><i className="fa fa-phone"> +91-7088587207</i></a>
+        < a href='https://wa.me/+917088587207' target="_blank" rel="noreferrer"><i className="fa fa-whatsapp">      https://wa.me/+917088587207</i></a>
         <a href="mailto:27.shaishavsingh" ><i className="fa fa-envelope">      27.shaishavsingh@gmail.com</i></a>
         <a href="https://www.linkedin.com/in/27-shaishavsingh/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin">      https://www.linkedin.com/in/27-shaishavsingh/</i></a>
         <a href='https://github.com/Singh-Shaishav' target="_blank" rel="noreferrer"><i className="fa fa-github">      https://github.com/Singh-Shaishav</i></a>
+        <p className='ptag'><i className="fa fa-map-marker"> Currently: Gurugram, Haryana | Native: Saharanpur</i></p>
         <hr className='hrline'></hr>
         <h4>Profile Summary :</h4>
         <p>Recent engineering graduate with expertise in Python, JavaScript, SQL and web technologies such as HTML, CSS, React.js, and jQuery. Skilled in designing and analyzing complex systems, and passionate about pursuing a career as a software engineer. Strong work ethic and willingness to learn, with the ability to make valuable contributions to any software development team.</p>
@@ -91,15 +92,15 @@ export default function Resume() {
         <h4>Personal Projects :</h4>
         <hr className='hrline'></hr>
         <div className='aboutProject'>
-          <div className='card-pr'>
+          <div className='card-pr1'>
             <img src={PortfolioImage} alt="PortfolioImage" className='logoimg' />
             <div className='cardcont'>
-              <h4>To-do List</h4>
-              <p>A webApp made using React.js, Bootstrap, HTML and CSS.</p>
+              <h4>Personal Portfolio </h4>
+              <p>Personal Portfolio website made using React.js, Bootstrap, HTML and CSS.</p>
               <a href="/Projects" className='btn-readmore'>Read More.....</a>
             </div>
           </div>
-          <div className='card-pr'>
+          <div className='card-pr1'>
             <img src={MapsImage} alt="MapImage" className='logoimg' />
             
             <div className='cardcont'>
@@ -126,7 +127,7 @@ export default function Resume() {
         <ul><li>Board - Central Board of Secondary Education(C.B.S.E)</li></ul>
         <hr className='hrline'></hr>
       </section>
-      <section className="A1">
+      <section className="A1 certificate">
         <h4>Certifications :</h4>
         <hr className='hrline'></hr>
         <ul>

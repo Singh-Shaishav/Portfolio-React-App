@@ -16,11 +16,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4> • Personal Portfolio Website </h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={PortfolioImage} alt="Portfolio" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/Portfolio-React-App" className='btn-readmore'>GitHub Repositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/Portfolio-React-App' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>
@@ -38,34 +38,36 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4> • ArcGIS WebApp</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={MapsImage} alt="Maps" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/ArcGIS_MAP-Webapp" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/ArcGIS_MAP-Webapp' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
+              </div>
+              <button className='btn-visit' ><a href="https://shaishav-map-webapp.netlify.app" target="_blank" rel="noreferrer">Visit WebApp</a></button>
+            </div>
+            <div className='Project-detail'>
+              <ul>
+                <li>A web application developed using <b>React.js</b> and the <b>ArcGIS API for JavaScript</b> to display maps and geographic data.</li>
+                <li>Includes features such as adding and removing layers, different types of map views, and widgets such as search and legend. </li>
+                <li>Utilizes <b>ArcGIS API's</b> tools for geolocation, measuring distance, and displaying pop-ups with additional information on map features.</li>
+                <li>User interface has been designed with <b>CSS & HTML</b>, ensuring responsiveness across different screen sizes.</li>
+                <li>Employed React Router to manage application routing and improve user navigation.</li>
+              </ul>
             </div>
           </div>
-          <div className='Project-detail'>
-            <ul>
-              <li>A web application developed using <b>React.js</b> and the <b>ArcGIS API for JavaScript</b> to display maps and geographic data.</li>
-              <li>Includes features such as adding and removing layers, different types of map views, and widgets such as search and legend. </li>
-              <li>Utilizes <b>ArcGIS API's</b> tools for geolocation, measuring distance, and displaying pop-ups with additional information on map features.</li>
-              <li>User interface has been designed with <b>CSS & HTML</b>, ensuring responsiveness across different screen sizes.</li>
-              <li>Employed React Router to manage application routing and improve user navigation.</li>
-            </ul>
-          </div>
-        </div>
       </section>
       <section className='projects'>
         <hr className='hrline'></hr>
         <h4> • To-do List App</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={TodoImage} alt="Todo" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/ReactAPP-Todo_list" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/ReactAPP-Todo_list' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
+            <button className='btn-visit' ><a href="https://shaishav-todo.netlify.app" target="_blank" rel="noreferrer">Visit WebApp</a></button>
           </div>
           <div className='Project-detail'>
             <ul>
@@ -82,11 +84,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4> •Wiki Live Search App</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={WikiLiveImage} alt="WikiLive" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/JavaScript_Projects" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/JavaScript_Projects' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>
@@ -101,11 +103,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4>•	Local Weather App</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={LocalWeatherImage} alt="LocalWeather" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/JavaScript_Projects" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/JavaScript_Projects' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>
@@ -120,11 +122,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4>•	Quote of the Day App</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={QuoteImage} alt="Quote" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/JavaScript_Projects" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/JavaScript_Projects' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>
@@ -139,11 +141,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4>•	Geocoder WebApp</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={Geocoding} alt="Geocoder" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/GeocoderWebApp" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/GeocoderWebApp' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>
@@ -158,11 +160,11 @@ export default function Projects() {
         <hr className='hrline'></hr>
         <h4>•	Database WebApp</h4>
         <hr className='hrline'></hr>
-        <div className='projectscont'>
-          <div className='card-pr'>
+        <div className='projectscont1'>
+          <div className='card-pr2'>
             <img src={DataCollectorImage} alt="DataCollector" className='logoimg' />
             <div className='cardcont'>
-            <a href="https://github.com/Singh-Shaishav/Data-Collector-WebApp" className='btn-readmore'>Github Respositry Link</a>
+              <a href='https://github.com/Singh-Shaishav/Data-Collector-WebApp' target="_blank" rel="noreferrer"><i className="fa fa-github">  Click to go to Github Respositry</i></a>
             </div>
           </div>
           <div className='Project-detail'>

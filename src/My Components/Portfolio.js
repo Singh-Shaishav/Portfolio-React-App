@@ -13,6 +13,8 @@ import Resume from "../My Components/Resume.pdf"
 import PortfolioImage from '../Images/PortfolioImage.PNG'
 import MapsImage from '../Images/MapsImage.PNG'
 import TodoImage from '../Images/TodoImage.PNG'
+import front from '../Images/front.png'
+
 
 
 
@@ -20,7 +22,7 @@ import TodoImage from '../Images/TodoImage.PNG'
 export default function Portfolio() {
 
     return (
-        <div className="container my-5 py-5 portfolio">
+        <div className="Container  portfolio">
             <div>
                 <section className='s1'>
                     <h1> Hello !</h1>
@@ -31,7 +33,7 @@ export default function Portfolio() {
                     <p>I am a graduate in Engineering with a passion for software development, I am excited to leverage my technical skills to pursue a career as a software engineer. Through self-study and online courses, I have gained expertise in a range of programming languages, including JavaScript, Python, and SQL. I am also proficient in using various web technologies such as HTML, CSS, React.js, and jQuery, to create responsive and dynamic web applications. Additionally, my experience in designing and analyzing complex systems has honed my ability to think critically and logically, which translates well into software development. With a strong work ethic and a willingness to learn, I am confident that I can make valuable contributions to any software development team.</p>
                     </div>
                     <div className='right'>
-                    
+                        <img src={front} alt="home" className='frontimage'></img>      
                     </div>
                 </section>
                 <section className='s3'>
